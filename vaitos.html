@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+	<title>Juha Pyykkö | Väitöstilaisuus</title>
+        <link rel="icon" type="image/x-icon" href="j.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                
+<!-- FONT -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
+
+<!-- CSS -->
+	<style>
+	/* MAIN */
+	html {
+		overflow-y:
+		scroll;
+		}
+	body {
+		background:black;
+		color:black;
+		}
+	p {
+		margin:0 0 10px;
+		line-height:1.4em;
+		}
+	ul {
+		list-style:none;
+		margin:0;
+		}
+	ul li {
+		margin:0;
+		padding:0;
+		}
+	aside, contact, header, nav, section {
+	    display:block;
+		}
+
+	/* STRUCTURE */
+	#wrapper {
+		width:96%;
+		max-width:800px;
+		margin:auto;
+		padding:2%;
+		}
+
+	/* main + aside = 60% + 5% + 35% = 100% */
+
+	#main {
+		width: 100%;
+		*margin-right: 5%;
+		float: left;
+		}
+	#main h1 {
+		font-size:2em;
+		letter-spacing:5px;
+		font-family:Times,serif;
+		}
+	#main p {
+		font-size:1em;
+		letter-spacing:1px;
+		font-family:Times,serif;
+		}
+	aside {
+		width: 35%;
+		float: right;
+		}
+	aside h1 {
+		font-size: 2em;
+		letter-spacing: 4px;
+		}
+	aside p {
+		font-size: 1em;
+		letter-spacing: 2px;
+		}
+
+	/* a */
+		header a:link    {color:skyblue; text-decoration:none;}
+		header a:visited {color:skyblue; text-decoration:none;}
+		header a:active  {color:#FF4D4D; text-decoration:none;}
+		header a:hover   {color:#FF4D4D; text-decoration:none;}
+		#contact a:link    {color:skyblue; text-decoration:none;}
+		#contact a:visited {color:skyblue; text-decoration:none;}
+		#contact a:active  {color:#FF4D4D; text-decoration:none;}
+		#contact a:hover   {color:#FF4D4D; text-decoration:none;}
+		#pyyxxo a:link    {color:skyblue; text-decoration:none;}
+		#pyyxxo a:visited {color:skyblue; text-decoration:none;}
+		#pyyxxo a:active  {color:#FF4D4D; text-decoration:none;}
+		#pyyxxo a:hover   {color:#FF4D4D; text-decoration:none;}
+
+	/* HEADER */
+	header h1 {
+		float:left;
+		font-size:2.4em;
+		color:ghostwhite;
+		font-family: 'Lato', 'Arial';
+		letter-spacing:8px;
+		margin-bottom:10px;
+		margin-top:10px;
+		text-transform:uppercase;
+		background:black;
+		width:100%;
+		text-align:left;
+		padding-left: 4px;
+		padding-top: 4px;
+		}		
+	#pyyxxo {
+			font-family: 'Press Start 2P', 'Arial';
+			font-size:14px;
+			letter-spacing:6px;
+		padding-left: 4px;
+			}
+	header h2 {
+		float:left;
+		font-size:1.4em;
+		color:ghostwhite;
+		font-family: 'Lato', 'Arial';
+		letter-spacing:13px;
+		margin-bottom:10px;
+		margin-top:0px;
+		text-transform:uppercase;
+		background:black;
+		width:100%;
+		text-align:left;
+		padding-left: 4px;
+		padding-top: 4px;
+		}
+	header h3 {
+		float:left;
+		font-size:1.4em;
+		color:ghostwhite;
+		font-family: 'Lato', 'Arial';
+		letter-spacing:12px;
+		margin-bottom:0px;
+		margin-top:0px;
+		text-transform:uppercase;
+		background:black;
+		width:100%;
+		text-align:left;
+		padding-left: 4px;
+		padding-top: 4px;
+		}
+	header h4 {
+		float:right;
+		font-size:1.0em;
+		color:ghostwhite;
+		font-family: 'Lato', 'Arial';
+		letter-spacing:10px;
+		margin-bottom:16px;
+		margin-top:0px;
+		text-transform:uppercase;
+		background:black;
+		width:100%;
+		text-align:right;
+		padding-left: 4px;
+		padding-top: 4px;
+		}
+
+/* MAIN */
+	#contact {
+		margin-left:0px;
+		background:black;
+		clear:both;
+		text-align:left;
+		width:100%;
+		font-family: 'Lato', 'Arial';
+		}
+	#contact p {
+		padding:8px 0;
+		margin:0;
+		color:ghostwhite;
+		font-size:14px;
+		font-family: 'Lato', 'Arial';
+		letter-spacing:1px;
+		padding-left: 4px;
+		}
+	#contact ul li {
+		padding:0px 0;
+		margin:0;
+		color:ghostwhite;
+		font-size:12px;
+		font-family: 'Lato', 'Arial';
+		letter-spacing:2px;
+		padding-left: 4px;
+		}
+	#contact p a img {
+		margin: 0 15px 0 0;
+		}
+	#contact h2 {
+		float:left;
+		font-size:1.8em;
+		color:ghostwhite;
+		font-family: 'Lato', 'Arial';
+		letter-spacing:4px;
+		margin-bottom:10px;
+		margin-top:0px;
+		text-transform:uppercase;
+		background:black;
+		width:100%;
+		text-align:left;
+		padding-left: 4px;
+		padding-top: 4px;
+		}
+
+	/* Media Queries */
+	@media screen and (max-width:480px) {
+		#main, aside {
+			float:left;
+			clear:left;
+			margin:0 0 10px;
+			width:100%;
+			}
+		}
+	</style>
+</head>
+	<body>
+		<div id="wrapper">
+<!-- HEADER -->
+			<header>
+				<h3><a href="dissertation.html">in English</a></h3>
+				<br><br>
+				<hr>
+				<h1><b>VÄITÖSTILAISUUS</b></h1>
+			</header>
+<!-- CONTACT -->
+		
+			
+
+			<div id="pyyxxo">
+				<p class=x><a href="http://www.pyyxxo.fi"> pyyxxo.fi</a></p>
+			</div>
+				
+				
+		</div>
+</body></html>
